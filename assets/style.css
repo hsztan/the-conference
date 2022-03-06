@@ -34,6 +34,7 @@ ul {
 }
 
 body {
+  color: var(--myblack);
   font-family: 'Lato', sans-serif;
   height: 200vh;
 }
@@ -43,22 +44,68 @@ nav {
   display: none;
 }
 
+header {
+  padding: 4%;
+}
+
+header h2 {
+  color: var(--myorange);
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  margin-top: 20vw;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header h1 {
+  color: var(--myorange);
+  font-family: 'Cocogoose', sans-serif;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 1.7rem;
+}
+
+header div {
+  margin-top: 1rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  padding: 1rem;
+  background: #f8f8f8;
+  border: 2px solid #fff;
+}
+
+header h3 {
+  margin-top: 1rem;
+  font-family: 'Cocogoose', sans-serif;
+  font-weight: normal;
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+}
+
+header h4 {
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+  padding-bottom: 3rem;
+}
+
 @media screen and (max-width: 768px) {
   .mobile-menu-icon {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 30px;
-    width: 30px;
-    top: 30px;
-    left: 30px;
+    height: 27px;
+    width: 27px;
+    top: 20px;
+    left: 20px;
     position: sticky;
     z-index: 5;
   }
 
   .mobile-menu-icon .bar {
     display: block;
-    color: var(--myblack);
+    color: #535353;
     border-width: 3px;
     border-style: solid;
     border-radius: 15%;
@@ -89,5 +136,11 @@ nav {
     border: 5px solid;
     border-color: var(--myorange);
     padding: 0.5rem;
+  }
+
+  header {
+    margin-top: -30px;
+    background: url('../images/mobile_intro_bg.png');
+    background-size: cover;
   }
 }
