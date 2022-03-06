@@ -143,4 +143,12 @@ header h4 {
     background: url('../images/mobile_intro_bg.png');
     background-size: cover;
   }
+
+  .program {
+    height: 605px;
+    width: 100vw;
+    background-image: url('../images/pattern_bg.png');
+    background-repeat: repeat;
+    background-color: #272a32;
+  }
 }
