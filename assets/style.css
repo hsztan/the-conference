@@ -267,6 +267,18 @@ header h4 {
   background: transparent;
 }
 
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem;
+}
+
+footer .copy {
+  width: 50%;
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
+
 @media screen and (max-width: 768px) {
   .mobile-menu-icon {
     display: flex;

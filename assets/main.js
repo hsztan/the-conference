@@ -24,4 +24,5 @@ if (toggleMore)
   toggleMore.addEventListener('click', () => {
     const mainSpeakersEle = document.querySelector('.important-speakers')
     showMoreSpeakers(mainSpeakersEle)
+    toggleMore.style.display = 'none'
   })
