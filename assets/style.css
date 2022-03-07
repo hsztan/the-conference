@@ -86,10 +86,38 @@ header h4 {
   padding-bottom: 5rem;
 }
 
+.program {
+  width: 100%;
+  color: var(--mygrey);
+}
+
+.program-cards {
+  padding: 1rem;
+}
+
+.program .card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.program .card img {
+  width: 10%;
+  display: block;
+}
+
 .program h2 {
+  width: 20%;
   font-family: 'Lato', sans-serif;
   color: var(--mygrey);
   font-weight: bold;
+}
+
+.program p {
+  width: 40%;
 }
 
 @media screen and (max-width: 768px) {
