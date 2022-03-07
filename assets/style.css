@@ -477,17 +477,28 @@ footer .logo img {
   }
 
   .about-planning .video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
     margin-top: 1rem;
     height: 40vw;
-    color: var(--mygrey);
+    color: #fff;
+  }
+
+  .about-planning .video h2 {
+    font-family: 'Cocogoose';
+  }
+
+  .about-planning .video p {
+    padding: 1rem;
   }
 
   .about-planning .video.v1 {
     background: linear-gradient(
         0deg,
-        rgba(236, 82, 66, 0.7),
-        rgba(236, 82, 66, 0.7)
+        rgba(236, 82, 66, 0.6),
+        rgba(236, 82, 66, 0.6)
       ),
       url('../images/craft-1.jpeg') no-repeat top center;
     background-size: cover;
