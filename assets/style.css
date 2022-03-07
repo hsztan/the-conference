@@ -96,7 +96,7 @@ header h4 {
 }
 
 .program h2 {
-  padding-top: 1.4rem;
+  padding-top: 2rem;
   text-align: center;
   font-size: 5vw;
 }
@@ -147,6 +147,8 @@ header h4 {
 
 .program .join-conference-btn {
   padding: 1.5rem 2rem;
+  font-family: inherit;
+  font-size: 4vw;
   border: none;
   background-color: var(--myorange);
   color: var(--mygrey);
