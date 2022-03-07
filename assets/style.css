@@ -33,6 +33,7 @@ ul {
 body {
   color: var(--myblack);
   font-family: 'Lato', sans-serif;
+  font-weight: 400;
 }
 
 #social-header,
@@ -99,6 +100,7 @@ header h4 {
 
 .program h2 {
   padding-top: 2rem;
+  font-weight: 400;
   text-align: center;
   font-size: 5vw;
 }
@@ -170,6 +172,7 @@ header h4 {
 
 .speakers h2 {
   padding-top: 2rem;
+  font-weight: 400;
   text-align: center;
   font-size: 5vw;
 }
@@ -183,6 +186,46 @@ header h4 {
 
 .speakers-cards {
   padding: 1rem;
+}
+
+.speakers-cards .card {
+  padding: 2rem 0;
+}
+
+.speakers-cards .card .speaker-img {
+  padding-right: 1.1rem;
+  float: left;
+}
+
+.speakers-cards .card img {
+  max-width: 100%;
+}
+
+.speakers-cards .card h3 {
+  font-size: 1rem;
+  font-weight: 900;
+  line-height: 1rem;
+}
+
+.speakers-cards .card h4 {
+  color: var(--myorange);
+  padding-top: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.speakers-cards .card hr {
+  border: 0.5px solid var(--mygrey);
+  width: 20px;
+  margin: 1rem 0;
+}
+
+.speakers-cards .card p {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  padding-left: 1rem;
 }
 
 @media screen and (max-width: 768px) {
