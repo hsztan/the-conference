@@ -10,10 +10,7 @@
   --mygrey: #d3d3d3;
 }
 
-@font-face {
-  font-family: Lato, sans-serif;
-  src: url('../fonts/Lato.ttf');
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 @font-face {
   font-family: Cocogoose;
@@ -36,7 +33,6 @@ ul {
 body {
   color: var(--myblack);
   font-family: 'Lato', sans-serif;
-  height: 200vh;
 }
 
 #social-header,
@@ -67,10 +63,10 @@ header h1 {
 }
 
 header div {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   font-family: 'Lato', sans-serif;
-  font-size: 0.8rem;
-  line-height: 1.2rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
   padding: 1rem;
   background: #f8f8f8;
   border: 2px solid #fff;
@@ -80,14 +76,20 @@ header h3 {
   margin-top: 1rem;
   font-family: 'Cocogoose', sans-serif;
   font-weight: normal;
-  font-size: 5vw;
-  line-height: 5vw;
+  font-size: 6vw;
+  line-height: 7vw;
 }
 
 header h4 {
-  font-size: 0.8rem;
-  line-height: 1.4rem;
-  padding-bottom: 3rem;
+  font-size: 1rem;
+  line-height: 2rem;
+  padding-bottom: 5rem;
+}
+
+.program h2 {
+  font-family: 'Lato', sans-serif;
+  color: var(--mygrey);
+  font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
