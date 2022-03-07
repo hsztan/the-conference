@@ -109,15 +109,16 @@ header h4 {
 }
 
 .program-cards {
-  padding: 1rem;
+  padding: 1rem 1rem 0 1rem;
 }
 
 .program .card {
+  margin-top: 1rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.1rem;
+  padding: 0.6rem 1.1rem;
   background: rgba(255, 255, 255, 0.1);
 }
 
@@ -137,6 +138,19 @@ header h4 {
   width: 60%;
   font-size: 3.3vw;
   line-height: 5vw;
+}
+
+.program .btn-container {
+  margin: 0 auto;
+  padding: 2rem 3rem;
+}
+
+.program .join-conference-btn {
+  padding: 1.5rem 2rem;
+  border: none;
+  background-color: var(--myorange);
+  color: var(--mygrey);
+  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -194,7 +208,6 @@ header h4 {
   }
 
   .program {
-    height: 605px;
     width: 100vw;
     background-image: url('../images/pattern_bg.png');
     background-repeat: repeat;
