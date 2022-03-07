@@ -15,3 +15,13 @@ if (hamburger)
 // Toggle more button for more content in index.html mobile version
 
 const toggleMore = document.querySelector('#more')
+
+const showMoreSpeakers = (speakersEle) => {
+  speakersEle.style.display = 'block'
+}
+
+if (toggleMore)
+  toggleMore.addEventListener('click', () => {
+    const mainSpeakersEle = document.querySelector('.important-speakers')
+    showMoreSpeakers(mainSpeakersEle)
+  })
