@@ -11,3 +11,7 @@ if (hamburger)
     const menuNavEle = document.querySelector('nav')
     toggleMenuDisplay(menuNavEle)
   })
+
+// Toggle more button for more content in index.html mobile version
+
+const toggleMore = document.querySelector('#more')

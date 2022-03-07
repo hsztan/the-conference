@@ -288,4 +288,23 @@ header h4 {
     background-repeat: repeat;
     background-color: #272a32;
   }
+
+  .speakers .speakers-cards button {
+    font-family: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid var(--mygrey);
+    padding: 0.6rem;
+  }
+
+  .speakers .speakers-cards button span {
+    display: block;
+    font-family: 'Cocogoose';
+    font-weight: 900;
+    color: var(--myorange);
+  }
 }
