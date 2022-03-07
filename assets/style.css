@@ -90,8 +90,12 @@ header h4 {
 /* Program section styles */
 
 .program {
-  width: 100%;
   color: var(--mygrey);
+  width: 100vw;
+  background-image: url('../images/pattern_bg.png');
+  background-repeat: repeat;
+  background-color: #272a32;
+  background-size: 8%;
 }
 
 .program-cards {
@@ -338,13 +342,6 @@ footer .logo img {
     margin-top: -30px;
     background: url('../images/mobile_intro_bg.png');
     background-size: cover;
-  }
-
-  .program {
-    width: 100vw;
-    background-image: url('../images/pattern_bg.png');
-    background-repeat: repeat;
-    background-color: #272a32;
   }
 
   .speakers .speakers-cards button {
