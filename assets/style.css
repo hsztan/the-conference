@@ -369,3 +369,37 @@ footer .logo img {
 }
 
 /* Styling for about.html */
+
+@media screen and (max-width: 768px) {
+  body.about {
+    text-align: center;
+  }
+
+  /* Styling for header */
+
+  header.about {
+    background: #f8f8f8;
+  }
+
+  header.about h2 {
+    margin-top: 15vw;
+    margin-bottom: 1rem;
+  }
+
+  header.about .about-text {
+    background: #fff;
+  }
+
+  header.about .contact {
+    margin: 0;
+    border: none;
+    line-height: 1.3rem;
+  }
+
+  header.about .email {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  /* About logo styles*/
+}
