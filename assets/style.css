@@ -936,3 +936,60 @@ hr.between-sections {
     color: #fff;
   }
 }
+
+.menu-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 35px;
+  width: 35px;
+  top: 20px;
+  left: 20px;
+  position: sticky;
+  z-index: 5;
+  transition: all .5s ease-in-out;
+}
+
+.burger {
+  width: 35px;
+  height: 5px;
+  position: absolute;
+  background: var(--myblack);
+  border-radius: 3px;
+  transition: all .5s ease-in-out;
+}
+
+.burger::before,
+.burger::after {
+  content: '';
+  position: absolute;
+  width: 35px;
+  height: 5px;
+  left: 0;
+  border-radius: 3px;
+  background: var(--myblack);
+  transition: all .5s ease-in-out;
+}
+
+.burger::before {
+  transform: translateY(-10px);
+}
+
+.burger::after {
+  transform: translateY(10px);
+}
+
+/* Menu button animation */
+.menu-btn.open .burger {
+  transform: translateX(-35px);
+  background: transparent;
+}
+
+.menu-btn.open .burger::before {
+  transform: rotate(45deg) translate(35px, -35px);
+}
+
+.menu-btn.open .burger::after {
+  transform: rotate(-45deg) translate(35px, 35px);
+}

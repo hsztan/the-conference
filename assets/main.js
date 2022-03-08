@@ -1,22 +1,34 @@
 // Open -close mobile menu
-
-const hamburger = document.querySelector('.mobile-menu-icon')
+// Menu button
+const menuBtn = document.querySelector('.menu-btn')
 const menuNavEle = document.querySelector('nav')
 
+// Helper function to toggle menu pop-up
 const toggleMenuDisplay = (menuElement) => {
   menuElement.classList.toggle('show')
 }
 
-if (hamburger)
-  hamburger.addEventListener('click', () => {
-    toggleMenuDisplay(menuNavEle)
-  })
+let menuOpen = false
+if (menuBtn) menuBtn.addEventListener('click', () => {
+  toggleMenuDisplay(menuNavEle)
+  if(!menuOpen) {
+    menuBtn.classList.add('open')
+    menuOpen = true
+  } else {
+    menuBtn.classList.remove('open')
+    menuOpen = false
+  }
+})
 
-// Close menu-nav on click memu-item
+const hamburger = document.querySelector('.mobile-menu-icon')
+
+// Close menu-nav on click menu-item
 const menuList = document.querySelectorAll('nav li')
 menuList.forEach((menu) => {
   menu.addEventListener('click', () => {
     toggleMenuDisplay(menuNavEle)
+    menuBtn.classList.remove('open')
+    menuOpen = false
   })
 })
 
