@@ -166,6 +166,10 @@ header h4 {
   width: 100%;
 }
 
+.program .join-conference-btn span {
+  font-family: 'Cocogoose';
+}
+
 /* Speakers section styles */
 
 .speakers {
