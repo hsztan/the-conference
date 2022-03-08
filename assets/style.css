@@ -534,7 +534,7 @@ hr.between-sections {
   background-size: cover;
 }
 
-/* Styles home page desktop version */
+/* DESKTOP VERSION */
 
 @media screen and (min-width: 769px) {
   .mobile-menu-icon {
@@ -562,14 +562,24 @@ hr.between-sections {
     gap: 4vh;
   }
 
+  nav ul li {
+    order: 1;
+  }
+
   nav .home {
+    order: 2;
     color: var(--myorange);
     border: 5px solid;
     border-color: var(--myorange);
     padding: 0.5rem;
   }
 
+  nav .about {
+    order: 0;
+  }
+
   nav .logo {
+    order: -1;
     text-align: center;
     padding-top: 1rem;
     margin-right: auto;
