@@ -51,8 +51,14 @@ header h2 {
   font-size: 5vw;
   line-height: 9vw;
   margin-top: 20vw;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family:
+    'Lucida Sans',
+    'Lucida Sans Regular',
+    'Lucida Grande',
+    'Lucida Sans Unicode',
+    Geneva,
+    Verdana,
+    sans-serif;
 }
 
 header h1 {
@@ -100,6 +106,7 @@ header h4 {
 
 .program-cards {
   width: 100%;
+  padding: 1rem 1rem 0 1rem;
 }
 
 .program h2 {
@@ -114,10 +121,6 @@ header h4 {
   margin-top: 0.8rem;
   width: 10%;
   border: 0.5px solid var(--myorange);
-}
-
-.program-cards {
-  padding: 1rem 1rem 0 1rem;
 }
 
 .program .card {
@@ -167,7 +170,7 @@ header h4 {
 }
 
 .program .join-conference-btn span {
-  font-family: 'Cocogoose';
+  font-family: 'Cocogoose', sans-serif;
 }
 
 /* Speakers section styles */
@@ -255,7 +258,7 @@ header h4 {
   font-size: 5vw;
 }
 
-.organizers hr {
+.organizers .organizers-hr {
   margin: 0 auto;
   margin-top: 0.8rem;
   width: 10%;
@@ -276,7 +279,6 @@ header h4 {
   width: auto;
   max-width: 100%;
   max-height: 100%;
-  object-fit: fit;
   background: transparent;
 }
 
@@ -294,7 +296,7 @@ footer .copy {
   line-height: 1.4rem;
 }
 
-footer .logo img {
+footer .logo-img {
   max-width: 100%;
   max-height: 100%;
 }
@@ -367,7 +369,7 @@ footer .logo img {
 
   .speakers .speakers-cards button span {
     display: block;
-    font-family: 'Cocogoose';
+    font-family: 'Cocogoose', sans-serif;
     font-weight: 900;
     color: var(--myorange);
   }
@@ -410,7 +412,7 @@ footer .logo img {
     text-decoration: underline;
   }
 
-  /* About logo styles*/
+  /* About logo styles */
 
   .about-logo {
     padding: 2rem 1.4rem;
@@ -421,7 +423,7 @@ footer .logo img {
     width: 60vw;
   }
 
-  .about-logo h2 {
+  .about-logo .the-logo {
     color: var(--myblack);
     font-weight: 400;
     text-align: center;
@@ -463,7 +465,7 @@ footer .logo img {
     margin: 0 auto;
   }
 
-  .about-planning h2 {
+  .about-planning .possible {
     font-size: 5vw;
     font-weight: 400;
   }
@@ -496,7 +498,7 @@ footer .logo img {
   }
 
   .about-planning .video h2 {
-    font-family: 'Cocogoose';
+    font-family: 'Cocogoose', sans-serif;
   }
 
   .about-planning .video p {
@@ -504,7 +506,8 @@ footer .logo img {
   }
 
   .about-planning .video.v1 {
-    background: linear-gradient(
+    background:
+      linear-gradient(
         0deg,
         rgba(236, 82, 66, 0.6),
         rgba(236, 82, 66, 0.6)
@@ -514,7 +517,8 @@ footer .logo img {
   }
 
   .about-planning .video.v2 {
-    background: linear-gradient(
+    background:
+      linear-gradient(
         0deg,
         rgba(236, 82, 66, 0.7),
         rgba(236, 82, 66, 0.7)
@@ -523,3 +527,5 @@ footer .logo img {
     background-size: cover;
   }
 }
+
+/* Styles home page desktop version */
