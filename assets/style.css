@@ -711,11 +711,13 @@ hr.between-sections {
   .speakers-cards .featured-speakers {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
   }
 
   .speakers-cards .important-speakers {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
   }
 
   .speakers h2 {
