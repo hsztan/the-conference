@@ -228,7 +228,7 @@ header h4 {
   font-weight: 900;
 }
 
-.speakers-cards .card hr {
+.speakers-cards hr {
   border: 0.5px solid var(--mygrey);
   width: 20px;
   margin: 1rem 0;
@@ -384,7 +384,6 @@ footer .logo-img {
 }
 
 /* Styling for about.html */
-
 
 body.about {
   text-align: center;
@@ -550,7 +549,7 @@ hr.between-sections {
     font-size: 0.8rem;
     font-weight: normal;
     box-shadow: 0 3px 3px var(--mygrey);
-    background: rgba(255, 255, 255, 0.8)
+    background: rgba(255, 255, 255, 0.8);
   }
 
   nav ul {
@@ -575,18 +574,14 @@ hr.between-sections {
   /* Header styles */
 
   header {
-    margin-top: -30px;
+    margin-top: 80px;
+    padding: 5rem 6rem;
     background: url('../images/main-background.png');
-    background-position:  center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
-  header {
-    margin-top: 80px;
-    padding: 5rem 6rem;
-  }
-  
   header h2 {
     color: var(--myorange);
     font-weight: 300;
@@ -602,7 +597,7 @@ hr.between-sections {
       Verdana,
       sans-serif;
   }
-  
+
   header h1 {
     color: var(--myorange);
     font-family: 'Cocogoose', sans-serif;
@@ -610,7 +605,7 @@ hr.between-sections {
     font-size: 5vw;
     line-height: 5vw;
   }
-  
+
   header div {
     width: 50vw;
     margin-top: 1.5rem;
@@ -621,7 +616,7 @@ hr.between-sections {
     background: #f8f8f8;
     border: 2px solid #fff;
   }
-  
+
   header h3 {
     margin-top: 1rem;
     font-family: 'Cocogoose', sans-serif;
@@ -629,7 +624,7 @@ hr.between-sections {
     font-size: 3vw;
     line-height: 4vw;
   }
-  
+
   header h4 {
     font-size: 1rem;
     line-height: 2rem;
@@ -637,28 +632,28 @@ hr.between-sections {
   }
 
   /* Program styles */
-  
+
   .program-cards {
     width: 100%;
     display: flex;
     gap: 0.5rem;
     padding: 1rem 2rem 0 2rem;
   }
-  
+
   .program h2 {
     padding-top: 2rem;
     font-weight: 400;
     text-align: center;
     font-size: 1.2rem;
   }
-  
+
   .program hr {
     margin: 0 auto;
     margin-top: 0.8rem;
     width: 30px;
     border: 0.5px solid var(--myorange);
   }
-  
+
   .program .card {
     margin-top: 1rem;
     width: 100%;
@@ -669,12 +664,12 @@ hr.between-sections {
     padding: 0.6rem 1.1rem;
     background: rgba(255, 255, 255, 0.1);
   }
-  
+
   .program .card img {
     width: 50px;
     display: block;
   }
-  
+
   .program .card h3 {
     width: 100%;
     text-align: center;
@@ -683,13 +678,13 @@ hr.between-sections {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
   }
-  
+
   .program .card p {
     text-align: center;
     font-size: 0.5rem;
     line-height: 1rem;
   }
-  
+
   .program .btn-container {
     display: none;
   }
@@ -708,7 +703,7 @@ hr.between-sections {
   .speakers {
     padding: 1rem 8rem;
   }
-  
+
   .speakers-cards {
     width: 100%;
   }
@@ -722,21 +717,21 @@ hr.between-sections {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   .speakers h2 {
     padding-top: 2rem;
     font-weight: 400;
     text-align: center;
     font-size: 1.2rem;
   }
-  
+
   .speakers hr {
     margin: 0 auto;
     margin-top: 0.8rem;
     width: 30px;
     border: 0.5px solid var(--myorange);
   }
-  
+
   .speakers-cards .card {
     padding: 2rem 0;
   }
@@ -744,37 +739,37 @@ hr.between-sections {
   .speakers-cards #more {
     display: none;
   }
-  
+
   .speakers-cards .card hr {
     margin: 0.4rem 0;
   }
 
   /* Organizers styles */
 
-.organizers {
-  padding: 2rem;
-  background-color: #414245;
-}
+  .organizers {
+    padding: 2rem;
+    background-color: #414245;
+  }
 
-.organizers h2 {
-  color: var(--mygrey);
-  font-weight: 400;
-  text-align: center;
-  font-size: 1.2rem;
-}
+  .organizers h2 {
+    color: var(--mygrey);
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.2rem;
+  }
 
-.organizers .organizers-hr {
-  margin: 0 auto;
-  margin-top: 0.8rem;
-  width: 30px;
-  border: 0.5px solid var(--myorange);
-}
+  .organizers .organizers-hr {
+    margin: 0 auto;
+    margin-top: 0.8rem;
+    width: 30px;
+    border: 0.5px solid var(--myorange);
+  }
 
-.organizers .organizers-wrapper {
-  padding: 1rem;
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
+  .organizers .organizers-wrapper {
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
