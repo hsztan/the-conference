@@ -47,6 +47,11 @@ nav img {
 
 nav ul li a:hover {
   color: var(--myorange);
+  border-bottom: 2px solid var(--myorange);
+}
+
+nav .logo {
+  text-align: center;
 }
 
 header {
@@ -584,7 +589,6 @@ hr.between-sections {
 
   nav .logo {
     order: -1;
-    text-align: center;
     padding-top: 1rem;
     margin-right: auto;
   }
