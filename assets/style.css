@@ -45,6 +45,10 @@ nav img {
   width: 50%;
 }
 
+nav ul li a:hover {
+  color: var(--myorange);
+}
+
 header {
   padding: 4%;
 }
@@ -819,7 +823,7 @@ hr.between-sections {
     align-items: center;
     background: #f8f8f8;
   }
-  
+
   header.about h2 {
     display: none;
   }
@@ -829,7 +833,7 @@ hr.between-sections {
     line-height: 2rem;
     width: 50vw;
   }
-  
+
   header.about .about-text {
     background: #fff;
     border: 0.5px solid var(--mygrey);
@@ -841,35 +845,35 @@ hr.between-sections {
   .about-logo {
     padding: 2rem 1.4rem;
   }
-  
+
   .about-logo div {
     margin: 0 auto;
     width: 40vw;
   }
-  
+
   .about-logo .the-logo {
     color: var(--myblack);
     font-weight: 400;
     text-align: center;
     font-size: 1.2rem;
   }
-  
+
   .about-logo hr {
     margin: 0.8rem auto;
     width: 30px;
     border: 0.5px solid var(--myorange);
   }
-  
+
   .about-logo .text {
     font-size: 0.8rem;
   }
-  
+
   .about-logo .logo {
     margin-top: 1rem;
     padding: 1rem 3rem;
     border: 1px solid var(--mygrey);
   }
-  
+
   .about-logo .logo img {
     width: 50%;
     max-width: 100%;
@@ -879,53 +883,52 @@ hr.between-sections {
 
   /* Planning styles */
 
-hr.between-sections {
-  border: 0.5px solid var(--mygrey);
-}
+  hr.between-sections {
+    border: 0.5px solid var(--mygrey);
+  }
 
-.about-planning {
-  padding: 2rem;
-}
+  .about-planning {
+    padding: 2rem;
+  }
 
-.about-planning div {
-  width: 70vw;
-  margin: 0 auto;
-}
+  .about-planning div {
+    width: 70vw;
+    margin: 0 auto;
+  }
 
-.about-planning .possible {
-  font-size: 1.2rem;
-  font-weight: 400;
-}
+  .about-planning .possible {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
 
-.about-planning hr {
-  margin: 0.8rem auto;
-  width: 30px;
-  border: 0.5px solid var(--myorange);
-}
+  .about-planning .planning-hr {
+    margin: 0.8rem auto;
+    width: 30px;
+    border: 0.5px solid var(--myorange);
+  }
 
-.about-planning .text {
-  font-size: 0.8rem;
-  line-height: 1rem;
-}
+  .about-planning .text {
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
 
-.about-planning .videos-wrapper {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  width: 100%;
-  padding: 1rem 0;
-  margin: 0;
-}
+  .about-planning .videos-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    padding: 1rem 0;
+    margin: 0;
+  }
 
-.about-planning .video {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  margin: 0;
-  margin-top: 1rem;
-  height: 250px;
-  width: auto;
-  color: #fff;
-}
+  .about-planning .video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    margin-top: 1rem;
+    height: 250px;
+    width: auto;
+    color: #fff;
+  }
 }
