@@ -41,6 +41,10 @@ nav {
   display: none;
 }
 
+nav img {
+  width: 50%;
+}
+
 header {
   padding: 4%;
 }
@@ -760,8 +764,7 @@ hr.between-sections {
   }
 
   .organizers .organizers-hr {
-    margin: 0 auto;
-    margin-top: 0.8rem;
+    margin: 0.8rem auto;
     width: 30px;
     border: 0.5px solid var(--myorange);
   }
@@ -794,4 +797,154 @@ hr.between-sections {
     max-width: 100%;
     max-height: 100%;
   }
+
+  /* ABOUT PAGE STYLES */
+
+  /* About header styles */
+
+  header.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f8f8f8;
+  }
+  
+  header.about h2 {
+    display: none;
+  }
+
+  header.about h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+    width: 50vw;
+  }
+  
+  header.about .about-text {
+    background: #fff;
+    border: 0.5px solid var(--mygrey);
+    width: 80vw;
+  }
+
+  /* About logo styles */
+
+  .about-logo {
+    padding: 2rem 1.4rem;
+  }
+  
+  .about-logo div {
+    margin: 0 auto;
+    width: 40vw;
+  }
+  
+  .about-logo .the-logo {
+    color: var(--myblack);
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  .about-logo hr {
+    margin: 0.8rem auto;
+    width: 30px;
+    border: 0.5px solid var(--myorange);
+  }
+  
+  .about-logo .text {
+    font-size: 0.8rem;
+  }
+  
+  .about-logo .logo {
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    border: 1px solid var(--mygrey);
+  }
+  
+  .about-logo .logo img {
+    width: 50%;
+    max-width: 100%;
+  }
+
+  /* About planning styles */
+
+  /* Planning styles */
+
+hr.between-sections {
+  border: 0.5px solid var(--mygrey);
+}
+
+.about-planning {
+  padding: 2rem;
+}
+
+.about-planning div {
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.about-planning .possible {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.about-planning hr {
+  margin: 0.8rem auto;
+  width: 30px;
+  border: 0.5px solid var(--myorange);
+}
+
+.about-planning .text {
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
+
+.about-planning .videos-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  padding: 1rem 0;
+  margin: 0;
+}
+
+.about-planning .video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  margin-top: 1rem;
+  height: 250px;
+  width: auto;
+  color: #fff;
+}
+
+.about-planning .video h2 {
+  font-family: 'Cocogoose', sans-serif;
+}
+
+.about-planning .video p {
+  padding: 1rem;
+}
+
+.about-planning .video.v1 {
+  background:
+    linear-gradient(
+      0deg,
+      rgba(236, 82, 66, 0.6),
+      rgba(236, 82, 66, 0.6)
+    ),
+    url('../images/craft-1.jpeg') no-repeat top center;
+  background-size: cover;
+}
+
+.about-planning .video.v2 {
+  background:
+    linear-gradient(
+      0deg,
+      rgba(236, 82, 66, 0.7),
+      rgba(236, 82, 66, 0.7)
+    ),
+    url('../images/craft-2.jpeg') no-repeat top center;
+  background-size: cover;
+}
 }
