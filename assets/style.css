@@ -534,4 +534,45 @@ hr.between-sections {
   .mobile-menu-icon {
     display: none;
   }
+
+  nav {
+    padding: 0 5vw;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100vw;
+    font-size: 1rem;
+    font-weight: 700;
+    box-shadow: 0 3px 3px var(--mygrey);
+    background: rgba(255, 255, 255, 0.8)
+  }
+
+  nav ul {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+  }
+
+  nav .home {
+    color: var(--myorange);
+    border: 5px solid;
+    border-color: var(--myorange);
+    padding: 0.5rem;
+  }
+
+  nav .logo {
+    padding-top: 1rem;
+    margin-right: auto;
+  }
+
+  header {
+    margin-top: -30px;
+    background: url('../images/main-background.png');
+    background-position:  top 0 right 100px;
+    background-size: ;
+  }
 }
