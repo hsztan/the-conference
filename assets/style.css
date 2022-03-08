@@ -862,7 +862,7 @@ hr.between-sections {
     font-size: 1.2rem;
   }
 
-  .about-logo hr {
+  .about-logo .logo-hr {
     margin: 0.8rem auto;
     width: 30px;
     border: 0.5px solid var(--myorange);
