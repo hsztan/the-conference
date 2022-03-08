@@ -772,4 +772,25 @@ hr.between-sections {
     justify-content: center;
     flex-wrap: wrap;
   }
+
+  /* Footer styles */
+
+  footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem 10vw;
+  }
+  
+  footer .copy {
+    width: 50%;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+  }
+  
+  footer .logo-img {
+    width: 50%;
+    max-width: 100%;
+    max-height: 100%;
+  }
 }
