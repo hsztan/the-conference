@@ -675,7 +675,7 @@ hr.between-sections {
     flex-direction: column;
     justify-content: flex-start;
     gap: 1rem;
-    padding: 0.6rem 1.1rem;
+    padding: 1.5rem 1.1rem;
     background: rgba(255, 255, 255, 0.1);
   }
 
