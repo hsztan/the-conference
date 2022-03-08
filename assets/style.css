@@ -201,7 +201,8 @@ header h4 {
 
 .speakers-cards .card .speaker-img {
   padding-right: 1.1rem;
-  width: 50%;
+  height: 181px;
+  width: 181px;
   float: left;
 }
 
