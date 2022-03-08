@@ -569,10 +569,64 @@ hr.between-sections {
     margin-right: auto;
   }
 
+  /* Header styles */
+
   header {
     margin-top: -30px;
     background: url('../images/main-background.png');
-    background-position:  top 0 right 100px;
-    background-size: ;
+    background-position:  top 110px right 100px;
+    background-size: 80%;
+  }
+
+  header {
+    padding: 4%;
+  }
+  
+  header h2 {
+    color: var(--myorange);
+    font-weight: 300;
+    font-size: 5vw;
+    line-height: 9vw;
+    margin-top: 20vw;
+    font-family:
+      'Lucida Sans',
+      'Lucida Sans Regular',
+      'Lucida Grande',
+      'Lucida Sans Unicode',
+      Geneva,
+      Verdana,
+      sans-serif;
+  }
+  
+  header h1 {
+    color: var(--myorange);
+    font-family: 'Cocogoose', sans-serif;
+    font-weight: normal;
+    font-size: 8vw;
+    line-height: 8vw;
+  }
+  
+  header div {
+    margin-top: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    padding: 1rem;
+    background: #f8f8f8;
+    border: 2px solid #fff;
+  }
+  
+  header h3 {
+    margin-top: 1rem;
+    font-family: 'Cocogoose', sans-serif;
+    font-weight: normal;
+    font-size: 6vw;
+    line-height: 7vw;
+  }
+  
+  header h4 {
+    font-size: 1rem;
+    line-height: 2rem;
+    padding-bottom: 5rem;
   }
 }
