@@ -530,7 +530,6 @@ hr.between-sections {
   background-size: cover;
 }
 
-
 /* Styles home page desktop version */
 
 @media screen and (min-width: 769px) {
@@ -783,13 +782,13 @@ hr.between-sections {
     align-items: center;
     padding: 3rem 10vw;
   }
-  
+
   footer .copy {
     width: 50%;
     font-size: 0.9rem;
     line-height: 1.4rem;
   }
-  
+
   footer .logo-img {
     width: 50%;
     max-width: 100%;
