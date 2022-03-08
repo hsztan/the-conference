@@ -126,6 +126,7 @@ header h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 1rem;
   padding: 0.6rem 1.1rem;
   background: rgba(255, 255, 255, 0.1);
 }
@@ -136,6 +137,8 @@ header h4 {
 }
 
 .program .card h3 {
+  text-align: center;
+  width: 40%;
   color: var(--myorange);
   font-size: 4vw;
   font-family: 'Lato', sans-serif;
@@ -143,7 +146,7 @@ header h4 {
 }
 
 .program .card p {
-  width: 60%;
+  width: 70%;
   font-size: 3.3vw;
   line-height: 5vw;
 }
