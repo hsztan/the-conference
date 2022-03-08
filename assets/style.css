@@ -917,34 +917,4 @@ hr.between-sections {
   width: auto;
   color: #fff;
 }
-
-.about-planning .video h2 {
-  font-family: 'Cocogoose', sans-serif;
-}
-
-.about-planning .video p {
-  padding: 1rem;
-}
-
-.about-planning .video.v1 {
-  background:
-    linear-gradient(
-      0deg,
-      rgba(236, 82, 66, 0.6),
-      rgba(236, 82, 66, 0.6)
-    ),
-    url('../images/craft-1.jpeg') no-repeat top center;
-  background-size: cover;
-}
-
-.about-planning .video.v2 {
-  background:
-    linear-gradient(
-      0deg,
-      rgba(236, 82, 66, 0.7),
-      rgba(236, 82, 66, 0.7)
-    ),
-    url('../images/craft-2.jpeg') no-repeat top center;
-  background-size: cover;
-}
 }
