@@ -355,6 +355,10 @@ footer .logo-img {
     background-size: cover;
   }
 
+  .program .see-program {
+    display: none;
+  }
+
   .speakers .speakers-cards button {
     font-family: inherit;
     display: flex;
@@ -550,7 +554,6 @@ hr.between-sections {
   }
 
   nav ul {
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -632,4 +635,72 @@ hr.between-sections {
     line-height: 2rem;
     padding-bottom: 0;
   }
+
+  /* Program styles */
+  
+  .program-cards {
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem 2rem 0 2rem;
+  }
+  
+  .program h2 {
+    padding-top: 2rem;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  .program hr {
+    margin: 0 auto;
+    margin-top: 0.8rem;
+    width: 30px;
+    border: 0.5px solid var(--myorange);
+  }
+  
+  .program .card {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 0.6rem 1.1rem;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .program .card img {
+    width: 50px;
+    display: block;
+  }
+  
+  .program .card h3 {
+    width: 100%;
+    text-align: center;
+    color: var(--myorange);
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+  }
+  
+  .program .card p {
+    text-align: center;
+    font-size: 0.5rem;
+    line-height: 1rem;
+  }
+  
+  .program .btn-container {
+    display: none;
+  }
+
+  .program .see-program {
+    display: block;
+    text-decoration: underline;
+    text-align: center;
+    word-spacing: 0.2rem;
+    font-size: 0.8rem;
+    padding: 3rem 0;
+  }
+
 }
