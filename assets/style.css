@@ -570,6 +570,7 @@ hr.between-sections {
   }
 
   nav .logo {
+    text-align: center;
     padding-top: 1rem;
     margin-right: auto;
   }
