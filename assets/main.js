@@ -55,8 +55,30 @@ const firstSpeakersEle = document.querySelector('.featured-speakers')
 const restSpeakersEle = document.querySelector('.featured-speakers')
 let speakerCounter = 0
 
+const insertCard = (element, data) => {
+  const { name, title, description, imageUrl } = data
+  const card = `
+    <div class="card">
+      <div class="speaker-img">
+        <img src="${imageUrl}" alt="speaker ${speakerCounter + 1}" />
+      </div>
+      <h3>${name}</h3>
+      <h4>${title}</h4>
+      <hr />
+      <p>${description}</p>
+    </div>
+  `
+  element.insertAdjacentHTML('beforeend', card)
+}
+
 if (firstSpeakersEle && restSpeakersEle) {
-  console.log('This is a speaker page')
-} else {
-  console.log('Error not a speaker')
+  data.forEach((speaker) => {
+    if (speakerCounter < 2) {
+      insertCard(firstSpeakersEle, speaker)
+      speakerCounter += 1
+    } else {
+      insertCard(restSpeakersEle, speaker)
+      speakerCounter += 1
+    }
+  })
 }
