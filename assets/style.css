@@ -538,7 +538,7 @@ hr.between-sections {
 /* DESKTOP VERSION */
 
 @media screen and (min-width: 769px) {
-  .mobile-menu-icon {
+  body .menu-btn {
     display: none;
   }
 
@@ -581,8 +581,8 @@ hr.between-sections {
   }
 
   nav .logo {
+    padding-top: 0.5rem;
     order: -1;
-    padding-top: 1rem;
     margin-right: auto;
   }
 
