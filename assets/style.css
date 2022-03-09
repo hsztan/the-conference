@@ -64,14 +64,8 @@ header h2 {
   font-size: 5vw;
   line-height: 9vw;
   margin-top: 20vw;
-  font-family:
-    'Lucida Sans',
-    'Lucida Sans Regular',
-    'Lucida Grande',
-    'Lucida Sans Unicode',
-    Geneva,
-    Verdana,
-    sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header h1 {
@@ -522,8 +516,7 @@ hr.between-sections {
 }
 
 .about-planning .video.v1 {
-  background:
-    linear-gradient(
+  background: linear-gradient(
       0deg,
       rgba(236, 82, 66, 0.6),
       rgba(236, 82, 66, 0.6)
@@ -533,8 +526,7 @@ hr.between-sections {
 }
 
 .about-planning .video.v2 {
-  background:
-    linear-gradient(
+  background: linear-gradient(
       0deg,
       rgba(236, 82, 66, 0.7),
       rgba(236, 82, 66, 0.7)
@@ -558,13 +550,14 @@ hr.between-sections {
     left: 0;
     height: 80px;
     width: 100vw;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: normal;
     box-shadow: 0 3px 3px var(--mygrey);
     background: rgba(255, 255, 255, 0.8);
   }
 
   nav ul {
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -610,14 +603,8 @@ hr.between-sections {
     font-size: 3vw;
     line-height: 5vw;
     margin: 0;
-    font-family:
-      'Lucida Sans',
-      'Lucida Sans Regular',
-      'Lucida Grande',
-      'Lucida Sans Unicode',
-      Geneva,
-      Verdana,
-      sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+      'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
   header h1 {
@@ -948,7 +935,7 @@ hr.between-sections {
   left: 20px;
   position: sticky;
   z-index: 5;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .burger {
@@ -957,7 +944,7 @@ hr.between-sections {
   position: absolute;
   background: var(--myblack);
   border-radius: 3px;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .burger::before,
@@ -969,7 +956,7 @@ hr.between-sections {
   left: 0;
   border-radius: 3px;
   background: var(--myblack);
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .burger::before {

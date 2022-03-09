@@ -1,3 +1,5 @@
+import data from './data.js'
+
 // Open -close mobile menu
 // Menu button
 const menuBtn = document.querySelector('.menu-btn')
@@ -9,16 +11,17 @@ const toggleMenuDisplay = (menuElement) => {
 }
 
 let menuOpen = false
-if (menuBtn) menuBtn.addEventListener('click', () => {
-  toggleMenuDisplay(menuNavEle)
-  if(!menuOpen) {
-    menuBtn.classList.add('open')
-    menuOpen = true
-  } else {
-    menuBtn.classList.remove('open')
-    menuOpen = false
-  }
-})
+if (menuBtn)
+  menuBtn.addEventListener('click', () => {
+    toggleMenuDisplay(menuNavEle)
+    if (!menuOpen) {
+      menuBtn.classList.add('open')
+      menuOpen = true
+    } else {
+      menuBtn.classList.remove('open')
+      menuOpen = false
+    }
+  })
 
 const hamburger = document.querySelector('.mobile-menu-icon')
 
@@ -46,3 +49,14 @@ if (toggleMore)
     showMoreSpeakers(mainSpeakersEle)
     toggleMore.style.display = 'none'
   })
+
+// Create speaker cards from data.js
+const firstSpeakersEle = document.querySelector('.featured-speakers')
+const restSpeakersEle = document.querySelector('.featured-speakers')
+let speakerCounter = 0
+
+if (firstSpeakersEle && restSpeakersEle) {
+  console.log('This is a speaker page')
+} else {
+  console.log('Error not a speaker')
+}
