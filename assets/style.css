@@ -397,6 +397,10 @@ footer .logo-img {
     background-size: cover;
   }
 
+  header .header-hr {
+    display: none;
+  }
+
   .program .see-program {
     display: none;
   }
