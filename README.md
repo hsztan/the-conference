@@ -1,56 +1,33 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# HTML/CSS/JS Capstone Project 
+ First Microverse capstone project
 
-> Description the project.
 
+![screenshot](https://github.com/Behnam1369/Capstone1/blob/main/images/screenshot-min.jpg)
+
+This is a website for a concert. All contents are artifical and might be different from reality. 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS (.scss is used)
+- Javascript
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+[https://behnam1369.github.io/Capstone1/](https://behnam1369.github.io/Capstone1/)
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Behnam Aghaali**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [https://github.com/Behnam1369](https://github.com/Behnam1369)
+- LinkedIn: [https://www.linkedin.com/in/behnam-aghaali-62561375](https://www.linkedin.com/in/behnam-aghaali-62561375)
+- Twitter: [https://twitter.com/behnamagh1369](https://twitter.com/behnamagh1369)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -64,10 +41,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- The design of this site was inspired by [CC Global Summit 2015](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015). My sincere thanks to [Cindy Shin](https://www.behance.net/adagio07) for sharing this incredible design with us.
 - Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.

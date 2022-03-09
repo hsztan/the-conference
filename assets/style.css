@@ -48,7 +48,7 @@ body {
 .social-header ul {
   height: 100%;
   gap: 1rem;
-  padding-right: 4rem;
+  padding-right: 10vw;
   display: flex;
   justify-content: flex-end;
   align-items: center;
