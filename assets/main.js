@@ -90,6 +90,8 @@ window.addEventListener('scroll', () => {
   const navEle = document.querySelector('nav');
   if (window.scrollY > 34 && window.innerWidth > 768) {
     navEle.style.cssText = 'position:fixed;top:0;';
+  } else if (window.innerWidth <= 768) {
+    navEle.style.cssText = 'position:fixed;top:0px;';
   } else {
     navEle.style.cssText = 'position:fixed;top:35px;';
   }
