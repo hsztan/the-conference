@@ -45,4 +45,4 @@ export default [
       'President Islax informs us of their planets diverse animal species, and how some of them can measure up to 50m. tall.',
     imageUrl: './images/speakers/6.png',
   },
-]
+];
