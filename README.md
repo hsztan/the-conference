@@ -1,9 +1,6 @@
 # HTML/CSS/JS Capstone Project 
  The First Interplanetary Arrival Conference - Website
 
-
-![screenshot](https://github.com/Behnam1369/Capstone1/blob/main/images/screenshot-min.jpg)
-
 This website is a work of fiction. Any similarity to actual persons, or actual events, is purely coincidental.
 
 ## Built With
