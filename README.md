@@ -1,56 +1,31 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# HTML/CSS/JS Capstone Project 
+ The First Interplanetary Arrival Conference - Website
 
-# Project Name
 
-> Description the project.
+![screenshot](https://github.com/Behnam1369/Capstone1/blob/main/images/screenshot-min.jpg)
 
+This website is a work of fiction. Any similarity to actual persons, or actual events, is purely coincidental.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Javascript
+- Git
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+[https://hsztan.github.io/the-conference/](https://hsztan.github.io/the-conference/)
 
 
-To get a local copy up and running follow these simple example steps.
+## Author
 
-### Prerequisites
+👤 **Henry Nawrocki**
 
-### Setup
+- GitHub: [https://github.com/hsztan](https://github.com/hsztan)
+- LinkedIn: [https://www.linkedin.com/in/henry-nawrocki](https://www.linkedin.com/in/henry-nawrocki)
+- Twitter: [https://twitter.com/hsztanski](https://twitter.com/hsztanski)
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -64,9 +39,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- The design of this site was based on [CC Global Summit 2015](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) by [Cindy Shin](https://www.behance.net/adagio07)
 
 ## 📝 License
 

@@ -5,9 +5,143 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/style.css" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Fiacs Arrival Conference</title>
   </head>
   <body>
+    <div class="social-header">
+      <ul>
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#">Sign In</a></li>
+      </ul>
+    </div>
+    <div class="menu-btn">
+      <div class="burger"></div>
+    </div>
+    <nav>
+      <ul class="main-menu">
+        <li class="logo">
+          <a href="./index.html"
+            ><img src="./images/FIAC-logo-2X.png" alt="fiac logo"
+          /></a>
+        </li>
+        <li class="home"><a href="./index.html">Home</a></li>
+        <li><a href="./index.html#organizers">Organizers</a></li>
+        <li><a href="./index.html#program">Program</a></li>
+        <li><a href="./index.html#speakers">Speakers</a></li>
+        <li class="about"><a href="./about.html">About</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h2>"Ready for First Contact!"</h2>
+      <h1>FIRST INTERPLANETARY ARRIVAL CONFERENCE</h1>
+      <div>
+        <p>
+          Our first ever contact with extraterrestrial beings. They’ve heard us,
+          we’ve been contacted... Now it's time to meet them. They say they mean
+          no harm and only want to be heard
+        </p>
+      </div>
+      <h3>2022.06.25(SAT) ~ 26(SUN)</h3>
+      <h4>&commat; National Comission of Interplanetary Affairs</h4>
+    </header>
+    <section class="program" id="program">
+      <h2>Main Program</h2>
+      <hr />
+      <div class="program-cards">
+        <div class="card">
+          <img src="./images/program_icon_05.png" alt="arrival" />
+          <h3>Arrival</h3>
+          <p>
+            Watch our extraterrestrial friends arrive from different parts of
+            the universe
+          </p>
+        </div>
+        <div class="card">
+          <img src="./images/program_icon_02.png" alt="greeting" />
+          <h3>Greeting</h3>
+          <p>
+            Join us in for a warm welcome to our sentient partners from
+            different galaxies
+          </p>
+        </div>
+        <div class="card">
+          <img src="./images/program_icon_03.png" alt="exchange" />
+          <h3>Ideologic Exchange</h3>
+          <p>
+            We will learn the basics of communication with different species,
+            thanks to specialized interpreters
+          </p>
+        </div>
+        <div class="card">
+          <img src="./images/program_icon_04.png" alt="technology" />
+          <h3>Technology Interchange</h3>
+          <p>
+            Our friends have agreed to share some advanced technology to further
+            the development of our civilization
+          </p>
+        </div>
+        <div class="card">
+          <img src="./images/program_icon_01.png" alt="speakers" />
+          <h3>Alien Speakers</h3>
+          <p>
+            Representatives of different civilizations will share their
+            experience in building long-term societal structures
+          </p>
+        </div>
+      </div>
+      <div class="btn-container">
+        <button class="join-conference-btn">
+          Join us @ --> <span>First Contact!</span>
+        </button>
+      </div>
+      <div class="see-program">SEE THE WHOLE EVENT</div>
+    </section>
+    <section class="speakers" id="speakers">
+      <h2>Featured Speakers</h2>
+      <hr />
+      <div class="speakers-cards">
+        <div class="featured-speakers grid"></div>
+        <button id="more">MORE<span>v</span></button>
+        <div class="important-speakers grid"></div>
+      </div>
+    </section>
+    <section class="organizers" id="organizers">
+      <h2>Organizers</h2>
+      <hr class="organizers-hr" />
+      <div class="organizers-wrapper">
+        <img
+          src="./images/sponsor-logos/china_national_space_administration_logo.png"
+          alt=""
+        />
+        <img src="./images/sponsor-logos/esa-logo.png" alt="european space agency" />
+        <img src="./images/sponsor-logos/nasa-logo.png" alt="nasa" />
+        <img src="./images/sponsor-logos/seti-institute-logo.png" alt="seti" />
+        <img src="./images/sponsor-logos/spacex-logo.png" alt="spacex" />
+        <img
+          src="./images/sponsor-logos/united_states_space_force_logo.png"
+          alt="us air force"
+        />
+        <img src="./images/sponsor-logos/unsc-logo.png" alt="united nations security council" />
+      </div>
+    </section>
+    <footer>
+      <div class="logo">
+        <img class="logo-img" src="./images/FIAC-logo-2X.png" alt="FIACS logo" />
+      </div>
+      <div class="copy">
+        <p>
+          2022 First Interplanetary Arrival Conference. Some Rights Reserved.
+        </p>
+      </div>
+    </footer>
     <script src="./assets/main.js" type="module"></script>
+    <script src="https://kit.fontawesome.com/e422b1318e.js" crossorigin="anonymous"></script>
   </body>
 </html>
