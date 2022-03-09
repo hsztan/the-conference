@@ -37,12 +37,22 @@ body {
 }
 
 .social-header {
-  position:static;
+  position: static;
   top: 0;
   left: 0;
   width: 100vw;
   height: 35px;
   background: #3e3e3e;
+}
+
+.social-header ul {
+  height: 100%;
+  gap: 1rem;
+  padding-right: 4rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #fff;
 }
 
 nav {
