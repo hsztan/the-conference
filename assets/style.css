@@ -874,10 +874,18 @@ hr.between-sections {
     width: 50vw;
   }
 
+  header.about .header-hr {
+    margin: 0.8rem auto;
+    margin-top: calc(16px + 0.8rem);
+    width: 30px;
+    border: 0.5px solid var(--myorange);
+  }
+
   header.about .about-text {
     background: #fff;
     border: 0.5px solid var(--mygrey);
     width: 80vw;
+    margin-bottom: 2rem;
   }
 
   /* About logo styles */
