@@ -64,8 +64,14 @@ header h2 {
   font-size: 5vw;
   line-height: 9vw;
   margin-top: 20vw;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family:
+    'Lucida Sans',
+    'Lucida Sans Regular',
+    'Lucida Grande',
+    'Lucida Sans Unicode',
+    Geneva,
+    Verdana,
+    sans-serif;
 }
 
 header h1 {
@@ -189,6 +195,7 @@ header h4 {
 }
 
 .speakers-cards {
+  padding: 2rem 0;
   width: 100%;
 }
 
@@ -203,10 +210,6 @@ header h4 {
   margin-top: 0.8rem;
   width: 10%;
   border: 0.5px solid var(--myorange);
-}
-
-.speakers-cards .card {
-  padding: 2rem 0;
 }
 
 .speakers-cards .card .speaker-img {
@@ -247,8 +250,18 @@ header h4 {
   padding-left: 1rem;
 }
 
+.speakers-cards .featured-speakers {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+
 .speakers-cards .important-speakers {
+  padding: 1rem 0;
   display: none;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 /* Organizers styles */
@@ -516,7 +529,8 @@ hr.between-sections {
 }
 
 .about-planning .video.v1 {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       0deg,
       rgba(236, 82, 66, 0.6),
       rgba(236, 82, 66, 0.6)
@@ -526,7 +540,8 @@ hr.between-sections {
 }
 
 .about-planning .video.v2 {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       0deg,
       rgba(236, 82, 66, 0.7),
       rgba(236, 82, 66, 0.7)
@@ -603,8 +618,14 @@ hr.between-sections {
     font-size: 3vw;
     line-height: 5vw;
     margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-      'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:
+      'Lucida Sans',
+      'Lucida Sans Regular',
+      'Lucida Grande',
+      'Lucida Sans Unicode',
+      Geneva,
+      Verdana,
+      sans-serif;
   }
 
   header h1 {
@@ -724,7 +745,9 @@ hr.between-sections {
   }
 
   .speakers-cards .important-speakers {
-    display: grid;
+    display: grid !important;
+
+    /* use of !important in order to override javascript style */
     grid-template-columns: repeat(2, 1fr);
     column-gap: 1rem;
   }

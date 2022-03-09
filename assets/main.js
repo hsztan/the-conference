@@ -40,7 +40,7 @@ menuList.forEach((menu) => {
 const toggleMore = document.querySelector('#more')
 
 const showMoreSpeakers = (speakersEle) => {
-  speakersEle.style.display = 'block'
+  speakersEle.style.display = 'flex'
 }
 
 if (toggleMore)
@@ -52,7 +52,7 @@ if (toggleMore)
 
 // Create speaker cards from data.js
 const firstSpeakersEle = document.querySelector('.featured-speakers')
-const restSpeakersEle = document.querySelector('.featured-speakers')
+const restSpeakersEle = document.querySelector('.important-speakers')
 let speakerCounter = 0
 
 const insertCard = (element, data) => {
