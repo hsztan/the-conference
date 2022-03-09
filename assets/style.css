@@ -36,7 +36,15 @@ body {
   font-weight: 400;
 }
 
-#social-header,
+.social-header {
+  position: static;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 35px;
+  background: #3e3e3e;
+}
+
 nav {
   display: none;
 }
@@ -322,6 +330,10 @@ footer .logo-img {
 }
 
 @media screen and (max-width: 768px) {
+  .social-header {
+    display: none;
+  }
+
   .mobile-menu-icon {
     display: flex;
     flex-direction: column;
@@ -560,8 +572,8 @@ hr.between-sections {
   nav {
     padding: 0 6vw;
     display: block;
-    position: fixed;
-    top: 0;
+    position: absolute;
+    top: 35px;
     left: 0;
     height: 80px;
     width: 100vw;
@@ -569,6 +581,10 @@ hr.between-sections {
     font-weight: normal;
     box-shadow: 0 3px 3px var(--mygrey);
     background: rgba(255, 255, 255, 0.8);
+  }
+
+  .social-header {
+    display: block;
   }
 
   nav ul {
